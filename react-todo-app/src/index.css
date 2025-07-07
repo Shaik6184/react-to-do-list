@@ -1,4 +1,5 @@
-/* Global Styles */
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #e0e5ec;
@@ -10,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* App Container */
+
 .app-container {
   background: #ffffff;
   padding: 2rem;
@@ -25,7 +26,7 @@ body {
   transform: scale(1.01);
 }
 
-/* Header */
+
 header h1 {
   text-align: center;
   font-size: 2rem;
@@ -33,7 +34,7 @@ header h1 {
   margin-bottom: 1.5rem;
 }
 
-/* Input Section */
+
 .input-container {
   display: flex;
   gap: 0.75rem;
@@ -55,7 +56,7 @@ input[type="text"]:focus {
   box-shadow: 0 0 5px #a996ff;
 }
 
-/* Buttons */
+
 button {
   padding: 0.7rem 1rem;
   border: none;
@@ -71,14 +72,13 @@ button:hover {
   background-color: #684de0;
 }
 
-/* ToDo List */
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ToDo Item */
 .todo-item {
   display: flex;
   justify-content: space-between;
@@ -95,14 +95,14 @@ ul {
   transform: scale(1.01);
 }
 
-/* Completed Items */
+
 .todo-item.completed span {
   text-decoration: line-through;
   color: #999;
   font-style: italic;
 }
 
-/* Text Span */
+
 .todo-item span {
   flex: 1;
   cursor: pointer;
@@ -110,7 +110,7 @@ ul {
   color: #333;
 }
 
-/* Icons / Buttons inside each ToDo */
+
 .todo-item button {
   background-color: transparent;
   color: #555;
